@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Character encoding for the document -->
+    <meta charset="UTF-8">
+    <!-- Viewport settings for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Dynamic title based on the page's front matter -->
+    <title>{{ page.title }}</title>
+    <!-- Link to the custom CSS file for styling -->
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+</head>
+<body>
+    <!-- Header section of the page -->
+    <header>
+        <!-- Home link styled to look like plain text -->
+        <h1><a href="/" style="color: inherit; text-decoration: none;">Home</a></h1>
+    </header>
+    <!-- Main content area where page-specific content will be injected -->
+    <main>
+        {{ content }}
+    </main>
+</body>
+</html>
