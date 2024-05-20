@@ -1,6 +1,6 @@
 ---
 layout: default
-title: [ELLIE LOEW-MENDELSON](index.md)
+title: "[ELLIE LOEW-MENDELSON](index.md)"
 ---
 
 ##  I am a PhD student in [the Heyduk Lab](https://www.kheyduk.net/) at the University of Connecticut. 
