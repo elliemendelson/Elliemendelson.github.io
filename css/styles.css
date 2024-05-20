@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-image: url('css/squiggle.tif'); /* Replace with the actual path to your image */
+    background-image: url('css/squiggle.jpeg'); /* Replace with the actual path to your image */
     background-size: cover;
     background-position: center;
     padding: 20px;
