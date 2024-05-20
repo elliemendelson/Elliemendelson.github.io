@@ -8,10 +8,10 @@ I am a PhD student in [the Heyduk Lab](https://www.kheyduk.net/) at the Universi
 
 ## Research areas 
 
-- [Photosynthesis](projects/ccms): Description of Project 1
-- [Aquatic plants of Connecticut](projects/aquatic): Description of Project 2
-- [Microscopy images](projects/microscopy): Description of Project 3
-- [Science communication](projects/scicomm.md)
+- [Photosynthesis](ccms.md): Description of Project 1
+- [Aquatic plants of Connecticut](aquatic.md): Description of Project 2
+- [Microscopy images](microscopy.md): Description of Project 3
+- [Science communication](scicomm.md)
 
 
 ## Contact Me
