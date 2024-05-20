@@ -16,5 +16,5 @@ I am a PhD student in [the Heyduk Lab](https://www.kheyduk.net/) at the Universi
 
 ## Contact Me
 
-Feel free to reach out to me via email at [your.email@example.com](mailto:emendelson@uconn.edu)
+Feel free to reach out to me via email at [emendelson@uconn.edu](mailto:emendelson@uconn.edu)
 
