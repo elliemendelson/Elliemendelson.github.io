@@ -1,7 +1,7 @@
----
-Layout: default
-Title: "Ellie's Website" 
----
+- - -
+layout: default
+title: "My Personal Website"
+- - -
 
 ##  I am a PhD student in [the Heyduk Lab](https://www.kheyduk.net/) at the University of Connecticut. 
 
