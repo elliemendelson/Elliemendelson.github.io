@@ -5,6 +5,8 @@ body {
 
 header {
     background-color: #333;
+    background-image: url('squiggle.tif');
+    background-size: cover;
     color: #fff;
     text-align: center;
     padding: 20px 0;
