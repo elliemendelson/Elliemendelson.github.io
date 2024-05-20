@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="styles.css">
+
 # ELLIE LOEW-MENDELSON
 
 ## About Me
