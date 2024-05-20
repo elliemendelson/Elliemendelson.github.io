@@ -1,8 +1,3 @@
----
-layout: default
-title: "Ellie Loew-Mendelson"
----
-
 ##  I am a PhD student in [the Heyduk Lab](https://www.kheyduk.net/) at the University of Connecticut. 
 
 ### Research Areas 
@@ -14,12 +9,6 @@ title: "Ellie Loew-Mendelson"
 
 ## Feel free to reach out to me via email at [emendelson@uconn.edu](mailto:emendelson@uconn.edu)
 
-<hr>
-
-</body>
-</html>
-
-[ELLIE LOEW-MENDELSON](index.md)
 
 
 
