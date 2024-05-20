@@ -1,6 +1,6 @@
 <link rel="stylesheet" type="text/css" href="styles.css">
 
-# ELLIE LOEW-MENDELSON
+# [ELLIE LOEW-MENDELSON] (index.md)
 
 ## About Me
 
@@ -12,7 +12,6 @@ I am a PhD student in [the Heyduk Lab](https://www.kheyduk.net/) at the Universi
 - [Aquatic plants of Connecticut](aquatic.md): Description of Project 2
 - [Microscopy images](microscopy.md): Description of Project 3
 - [Science communication](scicomm.md)
-
 
 ## Contact Me
 
