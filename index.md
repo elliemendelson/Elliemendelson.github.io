@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "[ELLIE LOEW-MENDELSON](index.md)"
+title: "ELLIE LOEW-MENDELSON"
 ---
 
 ##  I am a PhD student in [the Heyduk Lab](https://www.kheyduk.net/) at the University of Connecticut. 
@@ -16,7 +16,7 @@ title: "[ELLIE LOEW-MENDELSON](index.md)"
 
 <hr>
 
-[Back to Main Page](index.md)
+[ELLIE LOEW-MENDELSON](index.md)
 
 </body>
 </html>
