@@ -1,4 +1,14 @@
-<link rel="stylesheet" type="text/css" href="styles.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<h1><a href="index.md" style="color: inherit; text-decoration: none;">Home</a></h1>
 
 # [ELLIE LOEW-MENDELSON](index.md)
 
