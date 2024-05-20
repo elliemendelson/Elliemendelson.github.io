@@ -1,7 +1,7 @@
-- - -
+---
 layout: default
-title: "My Personal Website"
-- - -
+title: "Ellie Loew-Mendelson"
+---
 
 ##  I am a PhD student in [the Heyduk Lab](https://www.kheyduk.net/) at the University of Connecticut. 
 
