@@ -3,7 +3,7 @@ from PIL import Image
 
 # Set the directory containing your images and the directory for thumbnails
 image_dir = 'art-microcopy'
-thumbnail_dir = "art-microcopy\_thumbs"
+thumbnail_dir = "art-microcopy"
 
 # Make the thumbnails directory if it doesn't exist
 if not os.path.exists(thumbnail_dir):
