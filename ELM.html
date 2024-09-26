@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Ellie Loew-Mendelson</title>
+  <link rel="icon" href="photo.jpg" type="image/x-icon">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+  <style>
+    /* Custom styles for the page */
+    body {
+      font-family: 'Franklin Gothic', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    .navbar {
+      background-color: #4a7c59;
+      border: none;
+      position: relative;
+      margin-bottom: 30px;
+    }    
+
+    .navbar::after {
+      content: '';
+      position: absolute;
+      bottom: -39px; /* Adjust as needed */
+      left: 0;
+      width: 100%;
+      height: 40px; /* Adjust height if needed */
+      background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 40' preserveAspectRatio='none'%3E%3Cpath d='M0,20 C200,0 350,40 500,20 C650,0 850,40 1000,20 L1000,0 L0, 0 Z' fill='%234a7c59'/%3E%3C/svg%3E") repeat-x;
+      background-size: 1000px 100%;
+      z-index: 1;
+    }
+
+
+    .navbar-nav > li > a {
+      color: white !important;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .navbar-nav > li > a::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255,255,255,0.2);
+      transition: left 0.3s ease;
+    }
+    .navbar-nav > li > a:hover::before {
+      left: 0;
+    }
+
+    h1 {
+      font-family: 'Franklin Gothic', sans-serif;
+      font-size: 36px;
+      text-align: center;
+      margin-top: 30px;
+      color: #2c3e50;
+    }
+
+    h2 {
+      font-family: 'Franklin Gothic', sans-serif;
+      font-size: 20px;
+      text-align: center;
+      color: #000000;
+      margin-bottom: 30px;
+    }
+
+    .banner-image {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+    }
+
+    .container {
+      margin-top: 20px;
+    }
+
+    footer {
+      margin-top: 50px;
+      text-align: center;
+      color: #7f8c8d;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <!-- Collect the nav links -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="ELM.html">Home</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="outreach.html">Outreach</a></li>
+        <li><a href="#">CV</a></li>
+        <li><a href="art-microscopy.html">Art & Microscopy</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="container">
+
+  <!-- Title and Subtitle -->
+  <h1>Ellie Loew-Mendelson</h1>
+  <h2>PhD Student, Heyduk Lab</h2>
+
+  <!-- Banner Image -->
+  <div>
+    <img src="photo.jpg" alt="Banner Image" class="banner-image">
+  </div>
+
+  <!---Paragraph-->
+  <div class="container">
+
+    <div class="row">
+
+        <!-- Entries Column -->
+        <div class="col-md-8" style="height: 50vh;">
+            
+            <!-- Main Image -->
+            <img class="img-responsive" src="photo.gif" alt=""><br>
+            
+            <div style="margin-top:3%; text-align:justify;">                
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing <a href="#">elit</a>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            </div>
+        </div> 
+
+  <!-- Contact Info and Publications -->
+  <div class="container">
+    <!-- Contact Info on the Sidebar -->
+    <div class="col-md-4", style="height: auto;">
+        <div style="font-family: 'Franklin Gothic', sans-serif; font-size: 32px;"><b>Ellie Loew-Mendelson</b></div><br>
+      <p><b><a href = "mailto: emendelson@uconn.edu">emendelson@uconn.edu</a></b><br>
+      <p>PhD Student - <a href="https://www.kheyduk.net/">Heyduk Lab</a><br>
+      Ecology and Evolutionary Biology<br>
+      University of Connecticut<br>
+      Storrs, CT<br>
+      U.S.A.<br></p>
+    </div>
+
+</div>
+<!-- /.container -->
+
+<!-- Footer -->
+<footer>
+  <p>© Ellie Loew-Mendelson | University of Connecticut</p>
+  <dd><a href="https://www.researchgate.net/profile/Ellie-Mendelson" target="_blank" rel="noopener noreferrer"><img src="researchgate.png"></a>
+    <a href="https://www.linkedin.com/in/ellie-mendelson-88a178195/" target="_blank" rel="noopener noreferrer"><img src="linkedin.png"></a></dd>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Ellie Loew-Mendelson - Publications</title>
+  <link rel="icon" href="photo.jpg" type="image/x-icon">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+  <style>
+    /* Custom styles for the page */
+    body {
+      font-family: 'Franklin Gothic', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    h2, h3 {
+      font-family: 'Franklin Gothic', sans-serif;
+      color: #2c3e50;
+    }
+
+    .navbar {
+      background-color: #4a7c59;
+      border: none;
+      position: relative;
+      margin-bottom: 30px;
+    }    
+
+    .navbar::after {
+      content: '';
+      position: absolute;
+      bottom: -39px; /* Adjust as needed */
+      left: 0;
+      width: 100%;
+      height: 40px; /* Adjust height if needed */
+      background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 40' preserveAspectRatio='none'%3E%3Cpath d='M0,20 C200,0 350,40 500,20 C650,0 850,40 1000,20 L1000,0 L0, 0 Z' fill='%234a7c59'/%3E%3C/svg%3E") repeat-x;
+      background-size: 1000px 100%;
+      z-index: 1;
+    }
+
+    .navbar-nav > li > a {
+      color: white !important;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .navbar-nav > li > a::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255,255,255,0.2);
+      transition: left 0.3s ease;
+    }
+    .navbar-nav > li > a:hover::before {
+      left: 0;
+    }
+
+
+    .container {
+      margin-top: 20px;
+    }
+
+    .publication-section {
+      background-color: white;
+      padding: 20px;
+      margin-bottom: 30px;
+      border: 1px solid #eaeaea;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      
+    }
+
+    .publication-title {
+      font-size: 18px;
+      margin-bottom: 5px;
+      color: #2980b9;
+    }
+
+    .publication-description {
+      font-size: 16px;
+      color: #555;
+    }
+
+    footer {
+      margin-top: 50px;
+      text-align: center;
+      color: #7f8c8d;
+      font-size: 0.9em;
+    }
+    #more {display: none;}
+
+
+  </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="ELM.html">Home</a></li>
+        <li class="active"><a href="publications.html">Publications</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="outreach.html">Outreach</a></li>
+        <li><a href="#">CV</a></li>
+        <li><a href="art-microscopy.html">Art & Microscopy</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="container">
+
+  <div class="row">
+    
+    <!-- Main Content -->
+    <div class="col-md-8">
+      <h2>Publications</h2>
+      <p>Here is a selection of peer-reviewed publications that I have contributed to.</p>
+
+      <!-- Publication 1 -->
+      <div class="publication-section">
+        <h3 class="publication-title"><a href="https://kids.frontiersin.org/articles/10.3389/frym.2022.659623"target="_blank" rel="noopener noreferrer">What is a Leaf?</a></h3>
+        <p class="publication-description">
+          <b>Authors:</b> Ellie Loew-Mendelson, Cecilia Zumajo-Cardona, Barbara A. Ambrose.  <br>
+          <b>Published in:</b> Frontiers for Young Minds, 2022 <br>
+          Description: When thinking of plants, the color green inevitably comes to mind. As perhaps the most noticeable and easily recognizable part of the natural world, leaves decorate<span id="dots">...</span><span id="more"> the world green. If you take a close look at the plants in your yard or on your street, it is likely that you will not find two that are exactly the same. This is largely thanks to the enormous amount of diversity that exists in leaf shapes, textures, and even colors! All leaves share general characteristics that we will review in this article, but some have taken on special abilities. Some leaves are modified to look like flowers, others are modified to help the plant climb, to protect the plant from potential threats, or even to act as insect traps. We want to share with you the extraordinary world of leaves: keep reading, and you will learn the many shapes, structures, and incredible functions of leaves.</span>
+        </p>
+        <button onclick="myFunction()" id="myBtn">Read more</button>
+      </div>
+
+      <!-- Publication 2 -->
+      <div class="publication-section">
+        <h3 class="publication-title"><a href="https://kids.frontiersin.org/articles/10.3389/frym.2020.00027"target="_blank" rel="noopener noreferrer">What Is a Fruit?</a></h3>
+        <p class="publication-description">
+          <b>Authors:</b> Ellie Loew-Mendelson, Cecilia Zumajo-Cardona, Barbara A. Ambrose. <br>
+          <b>Published in:</b> Frontiers for Young Minds , 2020 <br>
+          Description: If you have ever been inside a grocery store, you have probably noticed the produce section<span id="dots">...</span><span id="more"> Mountains of lemons, piles of tomatoes, rows of cucumbers, several kinds of apples, and more. Some of these items you might know as fruits, and others as vegetables. But what is the difference between a fruit and a vegetable? When you eat an apple, strawberry, or peach, what part of the plant are you eating? This article explores our knowledge of fruits and how to properly identify them.</span>
+        </p>
+        <button onclick="myFunction()" id="myBtn">Read more</button>
+      </div>
+
+
+      <!-- Add more publications as needed -->
+    </div>
+
+
+  </div>
+  <!-- /.row -->
+       <!-- Sidebar with Contact Info -->
+       <div class="col-md-4">
+        <div style="font-family: 'Franklin Gothic', sans-serif; font-size: 32px;"><b>Ellie Loew-Mendelson</b></div><br>
+        <p><b><a href="mailto:emendelson@uconn.edu">emendelson@uconn.edu</a></b><br>
+        <p>PhD Student - <a href="https://www.kheyduk.net/">Heyduk Lab</a><br>
+        Ecology and Evolutionary Biology<br>
+        University of Connecticut<br>
+        Storrs, CT<br>
+        U.S.A.<br>
+        </p>
+        </div>
+      
+</div>
+
+<!-- /.container -->
+
+<footer>
+  <p>© Ellie Loew-Mendelson | University of Connecticut</p>
+  <dd>
+    <a href="https://www.researchgate.net/profile/Ellie-Mendelson" target="_blank" rel="noopener noreferrer"><img src="researchgate.png"></a>
+    <a href="https://www.linkedin.com/in/ellie-mendelson-88a178195/" target="_blank" rel="noopener noreferrer"><img src="linkedin.png"></a>
+  </dd>
+</footer>
+
+<script>
+    function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more"; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less"; 
+        moreText.style.display = "inline";
+      }
+    }
+    </script>
+</body>
+</html>

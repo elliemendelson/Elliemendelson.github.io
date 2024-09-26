@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Ellie Loew-Mendelson - Art & Microscopy</title>
+  <link rel="icon" href="photo.jpg" type="image/x-icon">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+  <style>
+    body {
+      font-family: 'Franklin Gothic', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    .navbar {
+      background-color: #4a7c59;
+      border: none;
+      position: relative;
+      margin-bottom: 30px;
+    }
+
+    .navbar::after {
+      content: '';
+      position: absolute;
+      bottom: -39px;
+      left: 0;
+      width: 100%;
+      height: 40px;
+      background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 40' preserveAspectRatio='none'%3E%3Cpath d='M0,20 C200,0 350,40 500,20 C650,0 850,40 1000,20 L1000,0 L0, 0 Z' fill='%234a7c59'/%3E%3C/svg%3E") repeat-x;
+      background-size: 1000px 100%;
+      z-index: 1;
+    }
+
+    .navbar-nav > li > a {
+      color: white !important;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .navbar-nav > li > a::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255,255,255,0.2);
+      transition: left 0.3s ease;
+    }
+    .navbar-nav > li > a:hover::before {
+      left: 0;
+    }
+
+    .container {
+      margin-top: 20px;
+    }
+    h1 {
+      font-family: 'Franklin Gothic', sans-serif;
+      font-size: 36px;
+      text-align: center;
+      margin-top: 30px;
+      color: #2c3e50;
+    }
+    h2 {
+      font-family: 'Franklin Gothic', sans-serif;
+      font-size: 24px;
+      color: #2c3e50;
+      margin-bottom: 20px;
+    }
+
+    /* Animation for fade-in and slide from bottom */
+    .gallery-item {
+      margin-bottom: 10px;
+      opacity: 0; /* Start invisible */
+      transform: translateY(30px); /* Start slightly below */
+      transition: opacity 0.6s ease, transform 0.6s ease; /* Animation duration and easing */
+      max-width: 25%;
+      max-height: 25%;
+      
+    }
+
+    .gallery-item.in-view {
+      opacity: 1; /* Fully visible */
+      transform: translateY(0); /* Back to original position */
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: auto; /* Maintain aspect ratio */
+      border-radius: 5px;
+      transition: transform 0.5s ease;
+    }
+
+    .gallery-item img:hover {
+      transform: scale(1.05);
+    }
+
+    .gallery-caption {
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    footer {
+      margin-top: 50px;
+      text-align: center;
+      color: #7f8c8d;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="ELM.html">Home</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="outreach.html">Outreach</a></li>
+        <li><a href="#">CV</a></li>
+        <li class="active"><a href="art-microscopy.html">Art & Microscopy</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="container">
+  <h1>Art & Microscopy</h1>
+  
+  <p class="text-center">Here's my stuff!.</p>
+
+  <div class="row" id="gallery">
+    <!-- Gallery items will be dynamically added here -->
+  </div>
+
+  <h2>About the Gallery</h2>
+  <p>I take pictures of Things!.</p>
+
+</div>
+
+<div> 
+    <!-- Contact Info and Publications -->
+    <div class="container">
+      <!-- Contact Info on the Sidebar -->
+      <div class="col-md-4" style="height: auto;">
+          <div style="font-family: 'Franklin Gothic', sans-serif; font-size: 32px;"><b>Ellie Loew-Mendelson</b></div><br>
+        <p><b><a href="mailto:emendelson@uconn.edu">emendelson@uconn.edu</a></b><br>
+        <p>PhD Student - <a href="https://www.kheyduk.net/">Heyduk Lab</a><br>
+        Ecology and Evolutionary Biology<br>
+        University of Connecticut<br>
+        Storrs, CT<br>
+        U.S.A.<br></p>
+      </div>
+    </div>
+
+<!-- Footer -->
+<footer>
+  <p>© Ellie Loew-Mendelson | University of Connecticut</p>
+  <dd>
+    <a href="https://www.researchgate.net/profile/Ellie-Mendelson" target="_blank" rel="noopener noreferrer"><img src="researchgate.png" alt="ResearchGate"></a>
+    <a href="https://www.linkedin.com/in/ellie-mendelson-88a178195/" target="_blank" rel="noopener noreferrer"><img src="linkedin.png" alt="LinkedIn"></a>
+  </dd>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+<script>
+  const images = [
+    { src: 'art-microcopy/_thumbs/IMG-20230907-WA0047thumb.jpg', full: 'art-microcopy/IMG-20230907-WA0047.jpg', caption: 'title' },
+    { src: 'art-microcopy/_thumbs/IMG-20240329-WA0112thumb.jpg', full: 'art-microcopy/IMG-20240329-WA0112.jpg', caption: 'title' },
+    { src: 'art-microcopy/_thumbs/PXL_20240424_215942682.MPthumb.jpg', full: 'art-microcopy/PXL_20240424_215942682.MP.jpg', caption: 'title' },
+    { src: 'art-microcopy/_thumbs/PXL_20240427_163020241thumb.jpg', full: 'art-microcopy/PXL_20240427_163020241.jpg', caption: 'title' },
+    { src: 'art-microcopy/_thumbs/PXL_20240427_171857885thumb.jpg', full: 'art-microcopy/PXL_20240427_171857885.jpg', caption: 'title' },
+    { src: 'art-microcopy/_thumbs/PXL_20240615_163552470thumb.jpg', full: 'art-microcopy/PXL_20240615_163552470.jpg', caption: 'title' },
+    { src: 'art-microcopy/_thumbs/Screenshot_20240408-160057thumb.jpg', full: 'art-microcopy/Screenshot_20240408-160057.jpg', caption: 'title' },
+  ];
+
+  function loadGallery() {
+    const gallery = document.getElementById('gallery');
+    images.forEach((image) => {
+      const item = document.createElement('div');
+      item.className = 'col-md-4 col-sm-6 gallery-item';
+      item.innerHTML = `
+        <a href="${image.full}" data-lightbox="gallery" data-title="${image.caption}">
+          <img src="${image.src}" alt="${image.caption}" loading="lazy">
+        </a>
+        <div class="gallery-caption">${image.caption}</div>
+      `;
+      gallery.appendChild(item);
+    });
+    
+    // Apply animation when images are in view
+    const galleryItems = document.querySelectorAll('.gallery-item');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in-view');
+        }
+      });
+    });
+
+    galleryItems.forEach(item => observer.observe(item));
+  }
+
+  $(document).ready(loadGallery);
+</script>
+
+</body>
+</html>
