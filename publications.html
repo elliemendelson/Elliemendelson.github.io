@@ -92,7 +92,7 @@
       color: #7f8c8d;
       font-size: 0.9em;
     }
-    #more {display: none;}
+    #more1,#more2 {display: none;}
 
 
   </style>
@@ -113,7 +113,7 @@
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="index.html">Home</a></li>
+        <li><a href="ELM.html">Home</a></li>
         <li class="active"><a href="publications.html">Publications</a></li>
         <li><a href="projects.html">Projects</a></li>
         <li><a href="outreach.html">Outreach</a></li>
@@ -140,9 +140,9 @@
         <p class="publication-description">
           <b>Authors:</b> Ellie Loew-Mendelson, Cecilia Zumajo-Cardona, Barbara A. Ambrose.  <br>
           <b>Published in:</b> Frontiers for Young Minds, 2022 <br>
-          Description: When thinking of plants, the color green inevitably comes to mind. As perhaps the most noticeable and easily recognizable part of the natural world, leaves decorate<span id="dots">...</span><span id="more"> the world green. If you take a close look at the plants in your yard or on your street, it is likely that you will not find two that are exactly the same. This is largely thanks to the enormous amount of diversity that exists in leaf shapes, textures, and even colors! All leaves share general characteristics that we will review in this article, but some have taken on special abilities. Some leaves are modified to look like flowers, others are modified to help the plant climb, to protect the plant from potential threats, or even to act as insect traps. We want to share with you the extraordinary world of leaves: keep reading, and you will learn the many shapes, structures, and incredible functions of leaves.</span>
+          Description: When thinking of plants, the color green inevitably comes to mind. As perhaps the most noticeable and easily recognizable part of the natural world, leaves decorate<span id="dots1">...</span><span id="more1"> the world green. If you take a close look at the plants in your yard or on your street, it is likely that you will not find two that are exactly the same. This is largely thanks to the enormous amount of diversity that exists in leaf shapes, textures, and even colors! All leaves share general characteristics that we will review in this article, but some have taken on special abilities. Some leaves are modified to look like flowers, others are modified to help the plant climb, to protect the plant from potential threats, or even to act as insect traps. We want to share with you the extraordinary world of leaves: keep reading, and you will learn the many shapes, structures, and incredible functions of leaves.</span>
         </p>
-        <button onclick="myFunction()" id="myBtn">Read more</button>
+        <button onclick="myFunction(1)" id="myBtn1">Read more</button>
       </div>
 
       <!-- Publication 2 -->
@@ -151,9 +151,9 @@
         <p class="publication-description">
           <b>Authors:</b> Ellie Loew-Mendelson, Cecilia Zumajo-Cardona, Barbara A. Ambrose. <br>
           <b>Published in:</b> Frontiers for Young Minds , 2020 <br>
-          Description: If you have ever been inside a grocery store, you have probably noticed the produce section<span id="dots">...</span><span id="more"> Mountains of lemons, piles of tomatoes, rows of cucumbers, several kinds of apples, and more. Some of these items you might know as fruits, and others as vegetables. But what is the difference between a fruit and a vegetable? When you eat an apple, strawberry, or peach, what part of the plant are you eating? This article explores our knowledge of fruits and how to properly identify them.</span>
+          Description: If you have ever been inside a grocery store, you have probably noticed the produce section<span id="dots2">...</span><span id="more2"> Mountains of lemons, piles of tomatoes, rows of cucumbers, several kinds of apples, and more. Some of these items you might know as fruits, and others as vegetables. But what is the difference between a fruit and a vegetable? When you eat an apple, strawberry, or peach, what part of the plant are you eating? This article explores our knowledge of fruits and how to properly identify them.</span>
         </p>
-        <button onclick="myFunction()" id="myBtn">Read more</button>
+        <button onclick="myFunction(2)" id="myBtn2">Read more</button>
       </div>
 
 
@@ -188,21 +188,22 @@
 </footer>
 
 <script>
-    function myFunction() {
-      var dots = document.getElementById("dots");
-      var moreText = document.getElementById("more");
-      var btnText = document.getElementById("myBtn");
-    
-      if (dots.style.display === "none") {
+    function myFunction(index) {
+    var dots = document.getElementById("dots" + index);
+    var moreText = document.getElementById("more" + index);
+    var btnText = document.getElementById("myBtn" + index);
+
+    if (dots.style.display === "none") {
         dots.style.display = "inline";
         btnText.innerHTML = "Read more"; 
         moreText.style.display = "none";
-      } else {
+    } else {
         dots.style.display = "none";
         btnText.innerHTML = "Read less"; 
         moreText.style.display = "inline";
-      }
     }
+    }
+
     </script>
 </body>
 </html>
